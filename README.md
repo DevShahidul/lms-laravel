@@ -67,6 +67,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # lms-laravel
 
 ## Installation
+Download this repository and navigate to the project directory in your terminal and follow the instructions
 1. Run `php -r "file_exists('.env') || copy('.env.example', '.env');"` to create a .env file for project configuration
 and add database name in env file
 2. Run `composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist` command to install all dependencies file for composer
