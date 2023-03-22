@@ -65,3 +65,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # lms-laravel
+
+## Installation
+1. Run `php -r "file_exists('.env') || copy('.env.example', '.env');"` to create a .env file for project configuration
+and add database name in env file
+2. Run `composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist` command to install all dependencies file for composer
+3. Run `php artisan key:generate` command to generate key
+4. Run `npm install` to install all nodes dependencies
+5. Run `php artisan serve` command to run the project
